@@ -1,8 +1,8 @@
 body {
-    background-color: #ffffff;
+    background-color: #1f2937;
     text-align: center;
-    color: rgb(127, 127, 127);
-    font-family: 'Roboto' arial;
+    color: #e5e7eb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -15,7 +15,7 @@ body {
 .nav-bar {
     display: flex;
     background-color: #1f2937;
-    color: white;
+    font-size: 18px;
     align-items: center;
     padding: 20px;
     justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
     padding: 0px 10px 0px 10px;
 }
 
@@ -38,29 +38,87 @@ body {
     width: 160px;
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
+    margin-left: 40px;
 }
 
 .hero {
     display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
+    padding: 10px;
 }
 
 .hero-img img{
     height: auto;
     width: 300px;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 5px solid rgb(0, 0, 0);
     margin: 10px;
     margin-right: 20px;
 }
 
+.hero-txt {
+    text-align: left;
+}
+
 .hero-txt h1 {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* INFO SECTION */
+
+.random-info {
+   align-items: center;
+   background-color: white;
+}
+
+.random-info-pics {
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+   margin: 10px;
+}
+
+.random-info-pics div {
+    display: flex;
+    flex-flow: column wrap;
+    color: rgb(68, 68, 68);
+}
+
+.random-info-pics img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 0px 40px 0px 40px;
+}
+
+.random-info-title {
+    padding: 10px;
+    color: #1f2937;
+    font-size: 32px;
+
+}
+
+button {
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    color: #fff;
+    background-color: #3882f6;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
     font-family: 'Roboto' arial;
+    padding: 10px;
 }
